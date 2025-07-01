@@ -52,9 +52,11 @@ body {
 
 .card-front {
   transform: rotateY(180deg);
+  z-index: 1;
 }
 
 .card-back {
   background-image: url('images/back.jpg');
   transform: rotateY(0deg);
+  z-index: 2;
 }
